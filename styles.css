@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+#bg1{
+    height: 50%;
+    color: white;
+    background-image: url("../src/assets/sky.jpg");
+    background-size: 100%;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: mymove 1s infinite;
+
+  }
+  @keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }
+
